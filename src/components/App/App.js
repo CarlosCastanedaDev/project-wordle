@@ -1,3 +1,4 @@
+import FormInput from '../FormInput';
 import Game from '../Game';
 import Header from '../Header';
 
@@ -8,6 +9,7 @@ function App() {
 
       <div className="game-wrapper">
         <Game />
+        <FormInput />
       </div>
     </div>
   );
